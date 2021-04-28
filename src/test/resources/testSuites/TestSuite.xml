@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite" verbose="2" parallel="true">
+
+    <test name="Radio Buttons Test">
+        <classes>
+            <class name="tests.RadioButtonsTest"/>
+        </classes>
+    </test>
+
+    <test name="Select Test">
+        <classes>
+            <class name="tests.SelectTest"/>
+        </classes>
+    </test>
+
+    <test name="Table Test">
+        <classes>
+            <class name="tests.TableTest"/>
+        </classes>
+    </test>
+
+    <test name="Sign Up Test">
+        <classes>
+            <class name="tests.SignUpTest"/>
+        </classes>
+    </test>
+
+</suite>
